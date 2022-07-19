@@ -88,7 +88,7 @@ body{
  margin-bottom: 10px;
 }
 .blog-info{
-    margin: 15px;
+    padding: 10px;
 }
 .blog-info button{
     background-color: #FFFFFF;
@@ -100,8 +100,14 @@ body{
 }
 .blog-icon{
     display: flex;
-    justify-content: space-around;
 }
+.blog-icon span{
+    margin-left: 10px;
+}
+.fa-message{
+    margin-left: 50px;
+}
+
 
 /* footer styles */
 footer{
@@ -112,6 +118,7 @@ footer{
     color: #FFFFFF;
     padding-top: 50px;
     padding-bottom: 80px;
+    margin-top: 100px
 }
 footer h1{
     font-size: 40px;
